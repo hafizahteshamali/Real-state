@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins-Regular;
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(assets/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(assets/font/Poppins/Poppins-Bold.ttf);
+}
+:root{
+    --secondary-color: #000000;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.padding{
+    padding: 20px 40px !important;
+}
+
+/* section header start */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-wrapper{
+    width: 15%;
+}
+.header .logo-wrapper img{
+    height: 60px;
+    width: 90px;
+    object-fit: contain;
+}
+.navigation{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navigation ul li a{
+    color: var(--secondary-color);
+}
+.other-links ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.other-links ul li a{
+    color: var(--secondary-color);
+}
+.other-links ul :last-child a{
+    padding: 10px 20px;
+    border: 1px solid #BEBEBE;
+    border-radius: 15px;
+}
+.navigation .mobile-icon{
+    display: none;
+}
+/* section header End */
+
+/* section banner Start */
+.banner{
+    width: 80%;
+    background: linear-gradient(#C1DEE8 100%, #FBD9B9 100%);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.banner .text-area{
+    width: 50%;
+}
+.banner .image-wrapper{
+    width: 50%;
+    text-align: right;
+}
+.text-area .small-heading h6{
+    font-size: 13px;
+    font-family: Poppins-Bold;
+}
+.large-heading h1{
+    font-size: 50px;
+    font-family: Poppins-Bold;
+}
+.text-para{
+    margin-top: 20px;
+}
+.text-para p{
+    font-size: 14px;
+}
+.search-engine-wrapper{
+    width: 80%;
+    margin-top: 20px;
+}
+.search-engine-wrapper img{
+    width: 100%;
+}
+.banner .image-wrapper img{
+    width: 70%;
+}
+/* section banner End */
+
+/* Section Main Heading */
+.main-text-area{
+    margin-top: 20px;
+}
+.main-text-area .small-heading{
+    text-align: center;
+}
+.main-text-area .small-heading h6{
+    font-size: 15px;
+}
+.main-text-area .img-wrapper img{
+    height: 60px;
+    width: 70px;
+    object-fit: contain ;
+}
+.main-text-area .heading h4{
+    font-family: Poppins-Bold;
+}
+.main-text-area .large-heading{
+    text-align: center;
+}
+/* Section Main Heading */
+
+/* Section Card Wrapper Start */
+.card-wrapper .card{
+    padding: 10px;
+}
+.card-wrapper .small-heading h6, .card-wrapper .heading h2{
+    font-family: Poppins-Bold;
+}
+.card-wrapper .link{
+    text-align: right;
+}
+.card-wrapper .img-wrapper img{
+    width: 100%;
+}
+.card-wrapper .second-large-heading{
+    text-align: center;
+}
+.second-large-heading h1{
+    font-weight: 700;
+}
+/* Section Card Wrapper End */
+/* Section Last Banner Start */
+.last-banner{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.last-banner .left-side{
+    width: 55%;
+}
+.last-banner .right-side{
+    width: 45%;
+}
+.left-side .large-heading h2{
+    font-family: Poppins-Bold;
+}
+.left-side .text-para{
+    width: 90%;
+}
+.left-side .text-para p{
+    text-align: justify;
+}
+.left-side .btn-wrapper{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+.btn-wrapper a{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn-wrapper :first-child{
+    background-color:#1F1F1F;
+    color: #ffffff;
+}
+.btn-wrapper :last-child{
+    border: 1px solid #BEBEBE;
+    color: var(--secondary-color);
+}
+.left-side .score{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.score .small-box{
+    text-align: center;
+}
+.score .small-box h1{
+    font-weight: 800;
+}
+.last-banner .right-side{
+    text-align: center;
+}
+.last-banner .right-side img{
+    width: 80%;
+}
+/* Section Last Banner End */
+
+/* Footer Start */
+.footer{
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .logo-wrapper{
+    width: 15%;
+}
+.footer .logo-wrapper img{
+    height: 60px;
+    width: 90px;
+    object-fit: contain;
+}
+.footer .info{
+    width: 25%;
+}
+.footer .btn-wrapper{
+    width: 30%;
+}
+.footer .info h2{
+    font-family: poppins-Bold;
+    margin-bottom: 15px;
+}
+.footer .info ul li{
+    color: var(--para-color);
+    padding-bottom: 7px;
+}
+.footer .btn-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .btn-wrapper a{
+    height: 40px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    margin-right: 5px;
+    align-items: center;
+}
+/* Footer End*/

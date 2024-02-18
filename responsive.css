@@ -1,0 +1,114 @@
+/* header section */
+@media screen and (max-width: 1150px) {
+    .navigation .desktop-nav, .navigation .other-links{
+        display: none;
+    }
+    .navigation .mobile-icon{
+        display: block;
+    }
+    .navigation{
+        justify-content: end;
+    }
+}
+/* header section */
+
+/* section banner Start */
+@media screen and (max-width: 992px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner .text-area, .banner .image-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    .search-engine-wrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .large-heading h1{
+        font-size: 30px;
+    }
+    .banner .text-area, .banner .image-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    .search-engine-wrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
+/* section banner End */
+
+/* section Last Banner start */
+@media screen and (max-width: 992px) {
+    .last-banner{
+        flex-direction: column;
+    }
+    .last-banner .left-side, .last-banner .right-side{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .left-side .large-heading{
+        text-align: center;
+    }
+    .left-side .text-para{
+        width: 100%;
+    }
+    .left-side .text-para p{
+        text-align: center;
+    }
+    .left-side .btn-wrapper{
+        justify-content: center;
+    }
+    .left-side .score{
+        justify-content: center;
+    }
+    .last-banner .right-side{
+        order: -1;
+    }
+}
+@media screen and (max-width: 600px) {
+    .left-side .btn-wrapper{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+/* section Last Banner End */
+
+/* Footer Section Start */
+@media screen and (max-width: 1024px) {
+    .footer .btn-wrapper{
+        flex-direction: column;
+    }
+    .footer .btn-wrapper a{
+        width: 75%;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer .logo-wrapper{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer .info{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer .btn-wrapper{
+        width: 70%;
+    }
+    .footer .btn-wrapper a{
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+/* Footer Section End */
